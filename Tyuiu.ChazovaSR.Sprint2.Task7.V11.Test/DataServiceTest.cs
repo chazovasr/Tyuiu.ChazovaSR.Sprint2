@@ -14,7 +14,7 @@ namespace Tyuiu.ChazovaSR.Sprint2.Task7.V11.Test
             DataService ds = new DataService();
 
             double x = 0;
-            double y = 0;
+            double y = 0.5;
 
             bool res = ds.CheckDotInShadedArea(x, y);
 

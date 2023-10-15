@@ -40,15 +40,7 @@ namespace Tyuiu.ChazovaSR.Sprint2.Task7.V11
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            if (res)
-            {
-                Console.WriteLine("Точка находится в заштрихованной области");
-            }
-            else
-            {
-                Console.WriteLine("Точка  не находится в заштрихованной области ");
-            }
-
+            Console.WriteLine(res);
             Console.ReadKey();
         }
     }
